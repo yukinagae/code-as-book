@@ -6,8 +6,6 @@ html, body {
 .l-content {
   width: 100%;
   height: 100%;
-  color: #2c3e50;
-  background-color: #333;
 }
 
 .l-content .explorer {
@@ -34,4 +32,15 @@ html, body {
 
 .l-content .explorer  .folder-tree li {
   white-space: nowrap;
+}
+
+.l-content .explorer .page {
+  position: absolute;
+  left: 300px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow: scroll;
+  color: white;
+  background-color: #333;
 }
