@@ -1,5 +1,17 @@
 {
   "name": "code-as-book",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yukinagae/code-as-book.git"
+  },
+  "author": "yukinagae",
+  "email": "yuki.nagae1130@gmail.com",
+  "homepage": "https://github.com/yukinagae/code-as-book",
+  "license": "MIT",
   "version": "0.0.1",
-  "main": "index.html"
+  "main": "index.html",
+  "dependencies": {
+    "react": "^0.13.3",
+    "babel": "^5.4.7"
+  }
 }

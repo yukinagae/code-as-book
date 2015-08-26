@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using node.js <script>document.write(process.version)</script>.
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>code-as-book</title>
+    </head>
+    <body>
+        <script>
+        global.Element = Element;
+        global.document = window.document;
+        global.navigator = window.navigator;
+
+        require("babel/register");
+        require("./lib/app");
+        </script>
+    </body>
 </html>
