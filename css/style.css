@@ -45,12 +45,24 @@ html, body {
   bottom: 0;
   right: 0;
   overflow: scroll;
-  color: white;
   background-color: #333;
 }
 
 .l-content .explorer .page p {
   margin-left: 10px;
+}
+
+.line span {
+  color: gray;
+  margin-left: 5px;
+}
+
+.line p {
+  color: white;
+}
+
+.box {
+  display: table-cell;
 }
 
 .entry {
