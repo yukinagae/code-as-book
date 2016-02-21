@@ -46,23 +46,35 @@ html, body {
   right: 0;
   overflow: scroll;
   background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .l-content .explorer .page p {
   margin-left: 10px;
+  margin-top: 0px;
+  maring-bottom: 0px;
 }
 
-.line span {
+.line {
+  vertical-align: middle;
+  height: 20px;
+}
+
+.line-number {
   color: gray;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
 }
 
-.line p {
+.text {
   color: white;
 }
 
 .box {
-  display: table-cell;
+  float: left;
+  height: 20px;
 }
 
 .entry {
