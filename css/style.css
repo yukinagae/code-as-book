@@ -51,7 +51,7 @@ html, body {
 }
 
 .l-content .explorer .page p {
-  margin-left: 10px;
+  margin-left: 0px;
   margin-top: 0px;
   maring-bottom: 0px;
 }
@@ -59,6 +59,12 @@ html, body {
 .line {
   vertical-align: middle;
   height: 20px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.line:hover {
+  background-color: #ccc;
 }
 
 .line-number {
@@ -80,4 +86,11 @@ html, body {
 .entry {
   cursor: pointer;
   margin: 10px;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }

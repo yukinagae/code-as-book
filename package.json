@@ -11,7 +11,11 @@
   "version": "0.0.1",
   "main": "index.html",
   "dependencies": {
-    "react": "^0.13.3",
-    "babel": "^5.4.7"
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "babel-register": "^6.5.2",
+    "react-tooltip": "*",
+    "sha1": "*",
+    "react-modal": "*"
   }
 }
